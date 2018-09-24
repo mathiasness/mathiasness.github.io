@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="no" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Motvind Eventbyrå AS</title>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <img class="logo" src="vedlegg/bilder/motvindLogo.png" alt="logo">
+    </header>
+
+    <nav>
+      <ul class="navbar">
+        <li><a href="index.html">Hjem</a></li>
+        <li><a href="Barnebursdager.html">Barnebursdager</a></li>
+        <li><a href="Bryllup.html">Bryllup</a></li>
+        <li><a href="Klassefest.html">Klassefest</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1><i>Bryllup</i></h1>
+
+      <br>
+      <img src="vedlegg/bilder/bryllup.jpg" alt="bryllup">
+
+      <p>Registreringsskjema for bryllup</p>
+
+      <form action="register.html">
+        <label>Navn:</label>
+        <input type="text" name="navn" required>
+        <br>
+
+        <label>alder:</label>
+        <input type="number" name="alder" required>
+        <br>
+
+        <label>Kommer du med følge?</label>
+        <input type="radio" name="ja" value="rbFolge"><label>Ja</label>
+        <input type="radio" name="nei" value="rbFolge"><label>Nei</label>
+        <br>
+
+        <label>Hvilken mat vil du spise?</label>
+        <select name="VelgMat" required>
+            <option value="">velg matrett</option>
+            <option value="Pizza">Pizza</option>
+            <option value="Taco">Taco</option>
+            <option value="Fisk">Fisk</option>
+          </select>
+        <br>
+
+        <button type="submit">Send inn</button>
+      </form>
+    </main>
+
+    <footer>
+      <p><b>Kontaktinnformasjon</b></p>
+      <p>Motvind Eventbyrå AS <br>Elias Smiths vei 15 <br>1337 Sandvika</p>
+    </footer>
+  </body>
+</html>
