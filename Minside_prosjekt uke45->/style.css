@@ -1,0 +1,132 @@
+body{
+margin: 0;
+font-family: courier;
+background-color: #f3f3f3;
+color: black;
+}
+header{
+display: grid;
+grid-template-columns: 2fr 3fr 1fr 1fr 1fr 1fr 1fr 1fr;
+background-color: #363636;
+grid-gap: 5px;
+overflow: hidden;
+}
+header>section>a{
+text-decoration: none;
+color: white;
+padding-left: 35px;
+padding-right: 35px;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+header>section>a:hover{
+background-color: #929292;
+}
+header>.lenke{
+  align-self: center;
+}
+.logo{
+  width: 200px;
+}
+.handlekurv{
+  width: 75px;
+  margin-top: 15px;
+}
+.usynlig{
+  opacity: 0;
+}
+.logolenke{
+padding:0;
+}
+.handlekurvlenke{
+padding:0;
+}
+main{
+
+}
+#modellbilde{
+width: 100%;
+display: block;
+}
+#forsidetekst{
+  text-align: center;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+#påTopp{
+  text-align: center;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+#populært{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#inspirerende{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#inspirerendeBilde{
+  width: 100%;
+}
+.browseshoes{
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+}
+.skoene{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.aside{
+background-color: white;
+text-align: center;
+font-size: 70px;
+}
+.merkesko{
+  display: block;
+  width: 300px;
+  align-content: space-around;
+}
+.expandedview{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.storsko{
+
+}
+.storskobilde{
+  width: 500px;
+  margin-left: 100px;
+  margin-top: 75px;
+}
+.info_om_sko{
+margin-top: 75px;
+}
+.info_om_sko_innhold{
+  font-size: 10px;
+}
+.legg_til_i_handlekurv{
+  display: block;
+  width: 400px;
+}
+footer{
+color: #7A7A7A;
+}
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+}
+
+
+.c-span2{
+  grid-column: span 2;
+}
+.c-span3{
+  grid-column: span 3;
+}
+.r-span2{
+  grid-row: span 2;
+}
+.r-span3{
+  grid-row: span 3;
+}
