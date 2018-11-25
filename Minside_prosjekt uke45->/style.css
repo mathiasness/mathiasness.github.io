@@ -58,7 +58,7 @@ display: block;
   padding-left: 300px;
   padding-right: 300px;
 }
-#populært{
+#populaert{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -76,6 +76,7 @@ display: block;
 .skoene{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-column-gap: 50px;
 }
 .aside{
 background-color: white;
@@ -84,8 +85,14 @@ font-size: 70px;
 }
 .merkesko{
   display: block;
-  width: 300px;
+  width: 405px;
   align-content: space-around;
+}
+.skobilder{
+  border: solid black 1px;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .expandedview{
   display: grid;
@@ -98,6 +105,8 @@ font-size: 70px;
   width: 500px;
   margin-left: 100px;
   margin-top: 75px;
+  display: block;
+  border: 1px solid black;
 }
 .info_om_sko{
 margin-top: 75px;
@@ -110,12 +119,29 @@ margin-right: 100px;
   display: block;
   width: 400px;
 }
+.anbefalt{
+  margin-top:100px;
+  text-align: center;
+}
+.andre_sko{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 200px;
+  margin-right: 200px;
+}
 footer{
 color: #7A7A7A;
+}
+.linje{
+  display: block;
+  width: 1000px;
+  height: 100px;
 }
 .footer{
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 
