@@ -45,7 +45,7 @@ main{
 
 }
 #modellbilde{
-width: 107%;
+width: 100%;
 display: block;
 }
 #forsidetekst{
@@ -61,6 +61,7 @@ display: block;
 #populaert{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
 }
 #inspirerende{
   display: grid;
@@ -68,6 +69,25 @@ display: block;
 }
 #inspirerendeBilde{
   width: 100%;
+}
+#inspirerendeTekst{
+  margin-top: 0;
+  font-size: 25px;
+}
+#inspirerendeOverskrift{
+  font-size: 30px;
+}
+.bestesko{
+  display: block;
+  margin: auto;
+}
+.besteS{
+display: block;
+margin: auto;
+display: block;
+width: 405px;
+height: 390px;
+align-content: space-around;
 }
 .browseshoes{
   display: grid;
@@ -86,20 +106,18 @@ font-size: 70px;
 .merkesko{
   display: block;
   width: 405px;
+  height: 390px;
   align-content: space-around;
 }
 .skobilder{
   border: solid black 1px;
   margin-top: 20px;
-  margin-left: 100px;
+  margin-left: 50px;
   margin-right: 100px;
 }
 .expandedview{
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
-.storsko{
-
 }
 .storskobilde{
   width: 500px;
@@ -121,13 +139,16 @@ margin-right: 100px;
 }
 .anbefalt{
   margin-top:100px;
-  text-align: center;
+  justify-content: center;
 }
 .andre_sko{
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-left: 200px;
   margin-right: 200px;
+}
+.anbefaltoverskrift{
+  margin: auto;
 }
 footer{
 color: #7A7A7A;
